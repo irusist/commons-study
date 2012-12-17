@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE digester-rules PUBLIC
+        "-//Apache Commons //DTD digester-rules XML V1.0//EN"
+        "http://commons.apache.org/digester/dtds/digester-rules.dtd">
+<digester-rules>
+    <pattern value="plays/play">
+        <object-create-rule classname="com.irusist.commons.xml.pojo.Play" />
+        <set-next-rule methodname="add" paramtype="java.lang.Object"/>
+        <set-properties-rule/>
+        <bean-property-setter-rule pattern="name"/>
+        <bean-property-setter-rule pattern="summary"/>
+        <bean-property-setter-rule pattern="author"/>
+
+        <pattern value="characters/character">
+            <object-create-rule classname="com.irusist.commons.xml.pojo.Character"/>
+            <set-next-rule methodname="addCharacter" paramtype="com.irusist.commons.xml.pojo.Character" />
+            <set-properties-rule/>
+            <bean-property-setter-rule pattern="name"/>
+            <bean-property-setter-rule pattern="descr" propertyname="description"/>
+        </pattern>
+    </pattern>
+</digester-rules>

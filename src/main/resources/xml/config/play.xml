@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plays>
+    <play genre="tragedy" year="1603" language="english">
+        <name>Hamlet</name>
+        <author>William Shakespeare</author>
+        <summary>
+            Prince of Denmark freaks out, talks to ghost, gets into a
+            crazy nihilistic funk, and dies in a duel.
+        </summary>
+        <characters>
+            <character protagonist="false">
+                <name>Claudius</name>
+                <descr>King of Denmark</descr>
+            </character>
+            <character protagonist="true">
+                <name>Hamlet</name>
+                <descr>
+                    Son to the late, and nephew of the present king
+                </descr>
+            </character>
+            <character protagonist="false">
+                <name>Horatio</name>
+                <descr>friend to Hamlet</descr>
+            </character>
+        </characters>
+    </play>
+</plays>

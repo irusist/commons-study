@@ -1,0 +1,7 @@
+<info primitiveTypes="element">
+    <element name="character">
+        <attribute name="protagonist" property="protagonist"/>
+        <element name="pio" property="description"/>
+        <addDefaults/>
+    </element>
+</info>

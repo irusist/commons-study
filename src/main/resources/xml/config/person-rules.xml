@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE digester-rules PUBLIC
+        "-//Apache Commons //DTD digester-rules XML V1.0//EN"
+        "http://commons.apache.org/digester/dtds/digester-rules.dtd">
+<digester-rules>
+    <pattern value="*/person">
+        <object-create-rule classname="com.irusist.commons.xml.pojo.Person"/>
+        <set-next-rule methodname="addPerson"/>
+        <set-properties-rule/>
+        <bean-property-setter-rule pattern="role"/>
+    </pattern>
+</digester-rules>

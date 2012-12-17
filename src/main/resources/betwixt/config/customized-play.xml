@@ -1,0 +1,18 @@
+<play genre="tragedy" year="1603" language="english" id="1">
+    <Author>William Shakespeare</Author>
+    <Character protagonist="false" id="2">
+        <pio>King of Denmark</pio>
+        <Name>Claudius</Name>
+    </Character>
+    <Character protagonist="true" id="3">
+        <pio>Son to the late, and nephew of the present king</pio>
+        <Name>Hamlet</Name>
+    </Character>
+    <Character protagonist="false" id="4">
+        <pio>friend to Hamlet</pio>
+        <Name>Horatio</Name>
+    </Character>
+    <Name>Hamlet</Name>
+    <Summary>Price of Denmark (Hamlet) freaks not, talks to
+        father's ghost, and finally dies in a duel</Summary>
+</play>

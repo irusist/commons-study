@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<operations xmlns="http://discursive.com/textmainp">
+    <email to="zhulixin@360buy.com" from="zhulixin@360buy.com">
+        <replace search="o" replace="q"/>
+        <replace search="d" replace="z"/>
+        <lower/>
+        <reverse/>
+    </email>
+</operations>
