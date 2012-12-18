@@ -19,11 +19,11 @@ import java.net.URL;
  *
  * @author zhulixin
  */
-public class CompositeComfiguration {
+public class CompositeConfiguration {
 
     public static void main(String[] args) {
 
-        URL configURL = CompositeComfiguration.class.getResource("/configuration/config/configuration.xml");
+        URL configURL = CompositeConfiguration.class.getResource("/configuration/config/configuration.xml");
         try {
             ConfigurationBuilder builder = new DefaultConfigurationBuilder(configURL);
             Configuration config = builder.getConfiguration();
