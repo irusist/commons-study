@@ -1,0 +1,16 @@
+** Aggregate Statistics
+
+Average: $stat.average($results.scores)%
+Lowerest: $stat.min($results.scores)%
+Highest: $stat.max($results.scores)%
+
+** Scores:
+#foreach($student in $results.students)
+    #score($student 50)
+#end
+
+More results are available here:
+http://www.test.com/detail?test=${result.id}
+
+
+ 7 > 3

@@ -1,0 +1,23 @@
+The World's Busiest Airports
+
+
+<table>
+    <tr>
+        <td>Rank</td><td>Code</td><td>Name</td><td>Passengers</td>
+        <td>${countryCode} Domestic</td>
+    </tr>
+
+    #foreach($airport in $airports)
+        <tr>
+            <td>$velocityCount</td>
+            <td>$airport.code</td>
+            <td>$airport.name</td>
+            <td>$airport.passengers</td>
+            #if($airport.countryCode == $countryCode)
+                <td>Y</td>
+            #else
+                <td>N</td>
+            #end
+        </tr>
+    #end
+</table>

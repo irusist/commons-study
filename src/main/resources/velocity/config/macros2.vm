@@ -1,0 +1,7 @@
+#macro(score $student $passingGrade)
+    #if(${student.score} > 50)
+        Student: ${student.name} Score: ${student.score}% PASS
+    #else
+        Student: ${student.name} Score: ${student.score}% FAIL
+    #end
+#end
