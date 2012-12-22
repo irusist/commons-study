@@ -6,13 +6,14 @@ import com.irusist.commons.velocity.util.StatUtil;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
 
-import javax.swing.*;
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * description
+ * engine.init("velocity/config/velocity.properties");用配置文件类加载
+ * velocity中的比较if($a < $b)，其中$a和$b必须为int型，如果为float会出错。
+ * float型的比较没有意义，结果可能不确定
  *
  * @author zhulixin
  */
