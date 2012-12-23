@@ -17,6 +17,9 @@ import java.util.Date;
  * ${customer.firstName} 如果customer.getFirstName()返回null，则输出字符串null
  * #set
  *
+ * 在web容器中应用velocity可以用Servlet,在velocity-tools中
+ * org.apache.velocity.tools.view.servlet.VelocityViewServlet
+ *
  * @author zhulixin
  */
 public class SimpleVelocityExample {
